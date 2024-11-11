@@ -10,6 +10,8 @@ function generatePassword(length, includeLowerCase, includeUpperCase, includeSym
      let password = ""
      return ""
 
+     allowedChars += includeLowerCase ? lowerChars : "";
+
 }
 const passwordLength = 12 ;
 const includeLowerCase = true;
