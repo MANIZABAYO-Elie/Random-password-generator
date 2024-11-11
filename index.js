@@ -11,3 +11,17 @@ function generatePassword(length, includeLowerCase, includeUpperCase, includeSym
      return ""
 
 }
+const passwordLength = 12 ;
+const includeLowerCase = true;
+const includeUpperCase = true ;
+const includeNumbers = true;
+const includeSymbols = true;
+
+const password = generatePasswordLength(length, 
+                                        includeLowerCase, 
+                                        includeUpperCase, 
+                                        includeSymbols, 
+                                        includeNumbers)
+                                        {
+    
+}
