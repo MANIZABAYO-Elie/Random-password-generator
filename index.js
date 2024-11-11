@@ -25,3 +25,4 @@ const password = generatePasswordLength(length,
                                         {
     
 }
+console.log(`generated password ${password}`);
